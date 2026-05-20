@@ -2,10 +2,7 @@
 ================================================================================
 RESCUE MISSION ORDER - AI COURSE PROJECT
 --------------------------------------------------------------------------------
-TEAM MEMBERS:
-1. Yossef Ahmed Abd Elkareem (Environment & BFS)
-2. Zeyad Mohamed Sayed       (GA Logic & Optimization)
-3. Hossam Hassan Allam       (Visualization & Documentation)
+Yossef Ahmed Abd Elkareem
 ================================================================================
 """
 
