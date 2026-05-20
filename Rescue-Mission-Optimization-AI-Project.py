@@ -128,8 +128,9 @@ def main():
         _, path = get_bfs(grid, all_pts[seq[i]], all_pts[seq[i+1]])
         if path: plt.plot([p[1] for p in path], [p[0] for p in path], 'g--', linewidth=2)
     
-    plt.title(f"20x20 Rescue Mission | Best Distance: {best_dist:.1f}\nBFS: {bfs_t:.1f}ms | GA: {ga_t:.1f}ms\nBest Rescue Order: Robot -> {best_chrom} -> Robot")
+    plt.title(f"20x20 Rescue Mission | Best Distance: {best_dist:.1f}\nBFS: {bfs_t:.1f}ms | GA: {ga_t:.1f}ms\nBest Rescue Order: | Robot -> {best_chrom} -> Robot |")
     plt.show()
+
 
 if __name__ == "__main__": 
     main()
